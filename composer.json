@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/ewaybill",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\EwayBill\\": "",
+            "Modules\\EwayBill\\App\\": "app/",
+            "Modules\\EwayBill\\Database\\Factories\\": "database/factories/",
+            "Modules\\EwayBill\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\EwayBill\\Tests\\": "tests/"
+        }
+    }
+}

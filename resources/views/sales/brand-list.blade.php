@@ -1,0 +1,6 @@
+@foreach ($brands as $brand)
+    <div class="category-content brand-list" data-id="{{ $brand->id }}" data-route="{{ route('business.eway-bills.product-filter') }}">
+        <img class="category-brand-img" src="{{ asset($brand->icon ?? 'assets/img/icon/no-image.svg') }}" alt="">
+        <h6 class="brand-name">{{ $brand->brandName }}</h6>
+    </div>
+@endforeach

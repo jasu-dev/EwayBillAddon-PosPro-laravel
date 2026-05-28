@@ -1,0 +1,11 @@
+{
+    "name": "EwayBill",
+    "alias": "ewaybill",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\EwayBill\\App\\Providers\\EwayBillServiceProvider"
+    ],
+    "files": []
+}
